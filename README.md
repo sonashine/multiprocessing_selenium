@@ -5,7 +5,7 @@
 Google Chrome must be installed; Selenium 4.6+ downloads the driver automatically.
 
 ## Run
-    ```bash
+    ```
    python multiprocessing_example.py urls.txt --workers 4 -o books.json
 
    python multithreading_example.py urls.txt -w 4 -o books.json
